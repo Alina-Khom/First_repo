@@ -9,3 +9,10 @@
 
 # Виведення (виведення даних)
 #print(вітання)
+def discount_price(price: int, discount: float) -> float:
+    def apply_discount():
+        nonlocal price
+        price = price * (1 - discount)
+
+    apply_discount()
+    return price
