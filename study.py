@@ -15,8 +15,10 @@
 #for index, value in enumerate(some_list):
 #   print(index, value)
 
-def is_even(num: int) -> bool:
-    return num % 2 == 0
+def discount_price(price: int, discount: float) -> float:
+    def apply_discount():
+        nonlocal price
+        price = price * (1 - discount)
 
-check_even = is_even(5)
-print(check_even)  # Виведе: True
+    apply_discount()
+    return price
