@@ -25,20 +25,20 @@
 # print(my_list[1][1:3])
 
 
-def analyze_number(number):
-    if number > 0 and number % 2 == 0:
-        return "Positive even number"
-    elif number > 0 and number % 2 == 1:
-        return "Positive odd number"
-    elif number < 0 and number % 2 == 0:
-        return "Negative even number"
-    elif number < 0 and number % 2 != 0:
-        return "Negative odd number"
-    else:
-        return "Zero"
+# def analyze_number(number):
+#     if number > 0 and number % 2 == 0:
+#         return "Positive even number"
+#     elif number > 0 and number % 2 == 1:
+#         return "Positive odd number"
+#     elif number < 0 and number % 2 == 0:
+#         return "Negative even number"
+#     elif number < 0 and number % 2 != 0:
+#         return "Negative odd number"
+#     else:
+#         return "Zero"
 
 
-number = int(input("Enter a number: "))
-print(analyze_number(number))
+# number = int(input("Enter a number: "))
+# print(analyze_number(number))
 
 
